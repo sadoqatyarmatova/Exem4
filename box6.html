@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Placed</title>
+    <link rel="stylesheet" href="./box6.css">
+</head>
+<body>
+
+    <div id="box6">
+        <div class="order-card">
+
+            <div class="order-top">
+                <div class="check-icon">✓</div>
+                <h1>Order Placed!</h1>
+                <p>Your culinary experience is being prepared.</p>
+            </div>
+
+            <div class="order-status">
+                <p class="status-label">ESTIMATED ARRIVAL</p>
+                <h2><span id="arrival-time">45 - 55</span> <span class="min">min</span></h2>
+
+                <div class="status-steps">
+                    <span class="active">Confirmed</span>
+                    <span>Preparing</span>
+                    <span>On the way</span>
+                </div>
+            </div>
+
+            <div class="order-details">
+                <div class="detail-box">
+                    <h3>📍 Delivery To</h3>
+                    <p class="bold" id="delivery-label">Home</p>
+                    <p id="delivery-address"></p>
+                </div>
+
+                <div class="detail-box">
+                    <h3>🧾 <span id="order-number">Order #</span></h3>
+                    <div id="order-items"></div>
+                    <div class="order-total-row">
+                        <p class="bold">Total</p>
+                        <p class="total-value" id="order-total"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="order-buttons">
+                <button id="track-btn">Track Order</button>
+                <a href="./box1.html" class="home-btn">Back to Home</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <h2>Boutique Eats</h2>
+        <div class="footer">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Contact Us</p>
+            <p>Partner with Us</p>
+        </div>
+        <div>
+            <p>© 2024 Boutique Eats. Effortless Indulgence.</p>
+        </div>
+    </footer>
+
+    <script src="./box6.js"></script>
+
+</body>
+</html>
