@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fdf5f0;
+    color: #1a1a1a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fdf1ea;
+    border-bottom: 3px solid #1a1a1a;
+}
+
+header h1 {
+    color: #c1440e;
+    font-size: 26px;
+}
+
+header div:nth-of-type(1) {
+    display: flex;
+    gap: 30px;
+}
+
+header div:nth-of-type(1) a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+header div:nth-of-type(2) {
+    display: flex;
+    gap: 20px;
+}
+
+header div:nth-of-type(2) a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+body > h1 {
+    padding: 30px 40px 4px 40px;
+    font-size: 26px;
+}
+
+.subtitle {
+    padding: 0 40px 20px 40px;
+    color: #6b6b6b;
+    font-size: 14px;
+}
+
+#box4 {
+    display: flex;
+    gap: 24px;
+    padding: 0 40px 40px 40px;
+    align-items: flex-start;
+}
+
+.cart-items {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cart-card {
+    display: flex;
+    gap: 16px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    position: relative;
+}
+
+.cart-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-card-info {
+    flex: 1;
+}
+
+.cart-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart-card-top h3 {
+    font-size: 17px;
+}
+
+.remove-btn {
+    cursor: pointer;
+    color: #999;
+    font-size: 18px;
+}
+
+.cart-card-info p {
+    color: #6b6b6b;
+    font-size: 13px;
+    margin: 6px 0 12px 0;
+    border-bottom: 1px dashed #e5e5e5;
+    padding-bottom: 12px;
+}
+
+.cart-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 6px 14px;
+}
+
+.quantity button {
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantity span {
+    font-weight: bold;
+}
+
+.cart-price {
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.add-more {
+    border: 2px dashed #ddd;
+    background: none;
+    border-radius: 14px;
+    padding: 16px;
+    color: #6b6b6b;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.order-summary {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    min-width: 280px;
+}
+
+.order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.promo {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.promo input {
+    flex: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 8px 12px;
+    background-color: #f7f7f7;
+}
+
+.promo button {
+    border: none;
+    background: none;
+    color: #c1440e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 16px;
+}
+
+.summary-total h3:last-child {
+    color: #c1440e;
+    font-size: 22px;
+}
+
+#checkout-btn {
+    width: 100%;
+    background-color: #8b3a1e;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #ffffff;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    gap: 25px;
+}
+
+.footer p {
+    color: #6b6b6b;
+    font-size: 14px;
+    cursor: pointer;
+}
